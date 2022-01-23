@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Music Bands</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <table id="data-list">
+      <tr>
+        <td width=300px><input value="Ievadi nosaukumu!" onblur="this.value='Ievadi nosaukumu!'" onfocus="this.value='';" id="name" oninput="filterBy(this.id)"></td>
+        <td width=100px><input value="Ievadi gadu!" onblur="this.value='Ievadi gadu!'" onfocus="this.value='';" id="year" oninput="filterBy(this.id)"></td>
+        <td width=100px><input value="Ievadi valsti!" onblur="this.value='Ievadi valsti!'" onfocus="this.value='';" id="origin" oninput="filterBy(this.id)"></td>
+      </tr>
+      <tr>
+        <th>Grupa</th>
+        <th>Dibināta</th>
+        <th>Izcelsmes valsts</th>
+      </tr>
+      <tr>
+        <td>Bee Gees</td>
+        <td>1958</td>
+        <td>Australia</td>
+      </tr>
+      <tr>
+        <td>Alphaville</td>
+        <td>1982</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Roxette</td>
+        <td>1986</td>
+        <td>Sweden</td>
+      </tr>
+      <tr>
+        <td>The Corrs</td>
+        <td>1990</td>
+        <td>Ireland</td>
+      </tr>
+      <tr>
+        <td>Secret Service</td>
+        <td>1979</td>
+        <td>Sweden</td>
+      </tr>
+      <tr>
+        <td>Spice Girls</td>
+        <td>1994</td>
+        <td>England</td>
+      </tr>
+      <tr>
+        <td>ABBA</td>
+        <td>1972</td>
+        <td>Sweden</td>
+      </tr>
+      <tr>
+        <td>Red Hot Chilli Peppers</td>
+        <td>1983</td>
+        <td>USA</td>
+      </tr>
+      <tr>
+        <td>The Verve</td>
+        <td>1990</td>
+        <td>England</td>
+      </tr>
+      <tr>
+        <td>BWO (Bodies Without Organs)</td>
+        <td>2003</td>
+        <td>Sweden</td>
+      </tr>
+    </table>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
